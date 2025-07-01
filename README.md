@@ -1,5 +1,5 @@
 # Parking Management System ALPR
-This is a Automatic License plate recognition model that sends our main application [Park Ease](parkease-nu.vercel.app) the License Plate Number of the vehicle entering along with the time stamp of entry and the parking location at which the vehicle is entering as a json object through a post request which is then used by our application to verify booking
+This is a Automatic License plate recognition model that sends our main application [Park Ease](https://parkease-nu.vercel.app) the License Plate Number of the vehicle entering along with the time stamp of entry and the parking location at which the vehicle is entering as a json object through a post request which is then used by our application to verify booking
 
 ## Setup
 Clone this repo
@@ -17,14 +17,6 @@ python -m venv .venv
 Install the required dependencies
 ```bash
 pip install -r requirements.txt
-```
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
 ```
 
 # Usage
