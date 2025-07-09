@@ -62,7 +62,7 @@ class App(QMainWindow):
             if plate_no:
                 print(plate_no)
                 response = requests.post(
-                    "http://localhost:3000/api/plate",
+                    "http://parkease-nu.vercel.app/api/plate",
                     json={
                         "plate": plate_no,
                         "address": os.getenv("LOCATION"),
